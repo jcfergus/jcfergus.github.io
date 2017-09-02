@@ -14,7 +14,7 @@ body {
 }
 
 .section .content {
-    margin: 0 0 0 10;
+    margin: 0 0 1em 10;
 }
 
 .subsection {
@@ -26,7 +26,7 @@ body {
 }
 
 .workplace .employer {
-    font-size: 14pt;
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -55,6 +55,7 @@ body {
         margin: 0;
         font-size: 14pt;
         border-bottom-right-radius: 4px;
+        transition: width 1s;
     }
 
     header .intro {
@@ -77,6 +78,8 @@ body {
         float: left;
         background-color: rgba(0,0,0,0.6);
         position: fixed;
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+        transition: width 1s;
     }
 
     header .address {
@@ -116,7 +119,9 @@ body {
 
     header {
         width: 100%;
+        transition: width 1s;
         text-align: center;
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
     } 
 
     header h2 {
@@ -127,7 +132,14 @@ body {
         margin: 5px 40px 5px 40px;
     }
 
+    header .image {
+        transition: width 1s;
+        transition-delay: 1s;
+    }
+
     header .image img {
+        transition: width 1s;
+        transition-delay: 1s;
         width: 25%;
         max-width: 200px;
     }
