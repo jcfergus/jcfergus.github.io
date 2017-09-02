@@ -128,7 +128,8 @@ body {
     }
 
     header .image img {
-        width: 100px;
+        width: 25%;
+        max-width: 200px;
     }
 
     .main-content {
