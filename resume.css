@@ -103,11 +103,24 @@ body {
         font-weight: bold;
         margin: 10 0 0 0;
     }
+
+    header .image img {
+        transition: width 1s;
+        transition-delay: 1s;
+    }
     
     div.main-content {
         width: 55%;
         margin: 0 250px 20px 300px;
         padding: 20px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .job .timeframe {
+        font-weight: normal;
+        font-size: smaller;
+        float: inherit;
     }
 }
 
@@ -138,8 +151,6 @@ body {
     }
 
     header .image img {
-        transition: width 1s;
-        transition-delay: 1s;
         width: 25%;
         max-width: 200px;
     }
