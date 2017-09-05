@@ -191,13 +191,13 @@ body {
         font-size: 14pt;
         font-style: italic;
         text-align: center;
-        margin-top: 6px;
+        margin-top: 0.5em;
         margin-bottom: 0.5em;
     }
 
     .description p {
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
         widows: 3;
         orphans: 3;
     }
